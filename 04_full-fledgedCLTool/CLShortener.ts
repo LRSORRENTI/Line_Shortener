@@ -66,3 +66,17 @@ fs.writeFileSync('./output.txt', formattedLines.join('\n'), 'utf-8');
 //  at path-to-file-arg.txt, format the lines to be no
 //   longer than 70 characters, and write the formatted 
 //   lines to a new file called output.txt
+
+/* Yeah so this version of the tool is invokable 
+   from the command line, without needing to hard 
+   change the path and line-lengths in the
+    02_dist/Line_Shortener.js version, 
+    though that way works as well
+    
+    I think this way is a true 
+    command line tool though, since it's 
+    fully callable from the command line, passing 
+    in the path and line length args right in the 
+    terminal
+
+   */

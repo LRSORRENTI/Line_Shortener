@@ -1,12 +1,11 @@
 {
-    "compilerOptions": {
-      "target": "es5",
-      "module": "commonjs",
-      "outDir": "dist",
-      "rootDir": "./src",
-      "strict": true,
-      "esModuleInterop": true
-    },
-    "include": ["src/**/*"]
-  }
-  
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./02_dist/",
+    "rootDir": "./01_src/",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["./01_src/**/*"]
+}

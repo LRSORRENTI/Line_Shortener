@@ -9,7 +9,7 @@
 
  Takes two arguments (path_to_file, numChars)
 
- node /04_full-fledgedCLTool/CLShortener.js path-to-file-arg.txt 60
+ node /CLVersion/CLShortener.js path-to-file-arg.txt 60
 
  This will read the contents of the file
  at path-to-file-arg.txt, format the lines to be no

@@ -2,6 +2,24 @@
 
 ## Text file line length formatter
 
+## Command Line Version:
+
+```
+ You can run it from the command line with:
+
+ Takes two arguments (path_to_file, numChars)
+
+ node /04_full-fledgedCLTool/CLShortener.js path-to-file-arg.txt 60
+
+ This will read the contents of the file
+ at path-to-file-arg.txt, format the lines to be no
+ longer than 60 characters, and write the formatted
+ lines to a new file called output.txt
+
+```
+
+## Hard Change Code Version:
+
 ### Step 1 - Specify line-length in this if statement
 
 ```

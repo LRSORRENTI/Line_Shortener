@@ -4,6 +4,12 @@
 
 ## Command Line Version:
 
+Apparently there's a Linux command for this:
+
+cat textFile.txt | fmt -w 40 -u
+
+Still fun to build
+
 ```
  You can run it from the command line with:
 
